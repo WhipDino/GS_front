@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMed</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <script src="funcao.js"></script>
+  <header>
+        <img src="images\logo.png" alt="Logo da AutoMed" />
+        <h1>AutoMed</h1>
+        <button>Logout</button>
+    </header>
+    <main class="home-container">
+        <section class="hero-section">
+          <div class="image-container">
+            <div class="imagem">
+              <img src="images\imagem_principal.png" alt="Desenho do aplicativo" />
+            </div>
+            <div class="automed">
+              <img src="images\logo.png" alt="Logo da AutoMed" />
+              <h1>AutoMed</h1>
+            </div>
+            <div class="texto">
+              <p>Saúde à Distância, Cuidado de Perto.</p>
+            </div>
+            <div class="botao">
+              <button>Mais informações</button>
+            </div>
+          </div>
+  
+          <div class="text-container">
+            <div class="mySlide slide1 active">
+              <img src='images\pessoas_cabeca.jpg' alt="Cabeça formada por quebra-cabeça">
+              <div class="solution-section">
+                <div class="text-content">
+                  <h1>Solução:</h1>
+                  <p>Nosso aplicativo é uma solução inovadora que simplifica a vida dos idosos e de seus cuidadores, tornando o processo de obtenção de medicamentos e o 
+                    monitoramento da saúde mais acessível e eficaz. Os médicos podem enviar receitas diretamente para o aplicativo, eliminando a necessidade de papel, enquanto 
+                    os usuários podem comprar medicamentos com facilidade, encontrando as melhores opções de preço e prazo de entrega na região.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mySlide slide2 active">
+                <img src='images\saude.jpg' alt="Pessoas segurando um coração">
+                <div class="function-section">
+                  <div class="text-content">
+                    <h1>O que ela fará:</h1>
+                    <p>O aplicativo irá automatizar as idas à farmacia. Ao invés de sair do hospital e ir para a farmácia o médico enviará a receita para o seu usuário no aplicativo
+                        e automaticamente já serão feitos cálculos de quais farmácias tem os melhores preços. Após a confirmação do paciente ou do cuidador, a compra será efetuada e a 
+                        receita será enviada junto com a compra. Agora é só esperar a encomenda em casa! Desta forma os idosos evitaram o desgaste dos trasnportes públicos, trânsito e até 
+                        mesmo ter que explicar o remédio solicitado pelo médico.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="mySlide slide3 active">
+                <img src='images\solucao.png' alt="Pessoas discutindo sobre saúde">
+                <div class="work-section">
+                  <div class="text-content">
+                    <h1>Como Funcionará:</h1>
+                    <p>O aplicativo funcionará como uma plataforma centralizada para idosos e cuidadores gerenciarem prescrições médicas e medicamentos. Ele permitirá o cadastro de usuários,
+                        recebimento de prescrições eletrônicas, comparação de preços de medicamentos, realização de compras com opções de entrega em domicílio e fornecerá lembretes automáticos
+                        para a tomada de medicamentos. Tudo isso será oferecido através de uma interface amigável, com ênfase na segurança e privacidade dos dados do usuário.</p>
+                  </div>
+                </div>  
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="slide-indicators">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+          
+
+        </section>
+
+        <div class='titulo-vantagens'>
+          <h1>Vantagens</h1>
+        </div>
+  
+        <div class="vantagens">
+            <div class="celular-container">
+              <div class="image-celular">
+                <img src="images\celular1.png" alt="Celular" />
+              </div>
+              <div class="content">
+                <div class="number">01</div>
+                <div class="title">Envio de Receitas Médicas Online</div>
+                <div class="text">Os médicos podem enviar receitas médicas diretamente para o aplicativo, eliminando a necessidade de papel e idas à farmácia.</div>
+              </div>
+            </div>
+  
+            <div class="celular-container">
+              <div class="image-celular">
+                <img src="images\celular2.png" alt="Celular" />
+              </div>
+              <div class="content">
+                <div class="number">02</div>
+                <div class="title">Compra de Medicamentos Simplificada</div>
+                <div class="text">Os usuários podem comprar medicamentos com facilidade, encontrando as melhores opções de preço e prazo de entrega na região, economizando tempo e esforço.</div>
+              </div>
+            </div>
+  
+            <div class="celular-container">
+              <div class="image-celular">
+                <img src="images\celular3.png" alt="Celular" />
+              </div>
+              <div class="content">
+                <div class="number">03</div>
+                <div class="title">Monitoramento de Saúde e Assistência por IA</div>
+                <div class="text">Cuidadores podem acompanhar a saúde dos idosos e garantir que os medicamentos sejam tomados corretamente, enquanto a inteligência artificial amigável torna a navegação no aplicativo mais acessível e fácil.</div>
+              </div>
+            </div>
+          </div>
+      </main>
+</body>
+</html>
