@@ -1,0 +1,38 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin: 250px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    background-color: #0000001f;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 10px;
+  
+        input {
+          width: 100%;
+          margin-top: 5px;
+        }
+      }
+  
+      button {
+        padding: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #4cae4c;
+        }
+      }
+    }
+  }
+  
